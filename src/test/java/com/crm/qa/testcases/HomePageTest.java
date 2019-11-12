@@ -54,6 +54,11 @@ public class HomePageTest extends TestBase {
 		contactsPage = homePage.clickOnContactsLink();
 	}
 	
+	@Test
+	public void verifychange() {
+		System.out.println("pageobjectmode modified");
+	}
+	
 	
 	
 	@AfterMethod
